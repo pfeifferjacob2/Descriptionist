@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Challenge</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="background-timer">60</div>
+  <div class="container">
+    <div class="description">
+      <!-- Display the description here -->
+      Guess this movie, TV show, or book from this bad description!
+      "Old man kidnaps young boy to visit South America"
+    </div>
+    <input id="answerInput" type="text" placeholder="Enter your guess...">
+    <button onclick="checkAnswer()">Submit Answer</button>
+    <button onclick="revealAnswer()">Reveal Answer</button>
+    <div id="correctAnswer" style="display:none;">Correct answer: Up</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
